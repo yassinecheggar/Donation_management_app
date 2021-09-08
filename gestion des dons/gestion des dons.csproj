@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE724F07-974E-48ED-9BF2-AD7DA5C34A2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gestion_des_dons</RootNamespace>
+    <AssemblyName>gestion des dons</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="action.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="action.Designer.cs">
+      <DependentUpon>action.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajouter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ajouter.Designer.cs">
+      <DependentUpon>Ajouter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajouterVehic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ajouterVehic.Designer.cs">
+      <DependentUpon>ajouterVehic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajouteurTransp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ajouteurTransp.Designer.cs">
+      <DependentUpon>ajouteurTransp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="database.cs" />
+    <Compile Include="deletTrans.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deletTrans.Designer.cs">
+      <DependentUpon>deletTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletuser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deletuser.Designer.cs">
+      <DependentUpon>deletuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletvehi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deletvehi.Designer.cs">
+      <DependentUpon>deletvehi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depotvent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="depotvent.Designer.cs">
+      <DependentUpon>depotvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DonsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DonsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DonsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DonsDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DonsDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DonsDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listageP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="listageP.Designer.cs">
+      <DependentUpon>listageP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listTransp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="listTransp.Designer.cs">
+      <DependentUpon>listTransp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listusers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="listusers.Designer.cs">
+      <DependentUpon>listusers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listVeh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="listVeh.Designer.cs">
+      <DependentUpon>listVeh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuadmincs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuadmincs.Designer.cs">
+      <DependentUpon>menuadmincs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuoffres.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuoffres.Designer.cs">
+      <DependentUpon>menuoffres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuStock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuStock.Designer.cs">
+      <DependentUpon>menuStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recherche.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="recherche.Designer.cs">
+      <DependentUpon>recherche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="redistribution.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="redistribution.Designer.cs">
+      <DependentUpon>redistribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stockdisplaymenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stockdisplaymenu.Designer.cs">
+      <DependentUpon>Stockdisplaymenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ventbi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ventbi.Designer.cs">
+      <DependentUpon>ventbi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="action.resx">
+      <DependentUpon>action.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajouter.resx">
+      <DependentUpon>Ajouter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajouterVehic.resx">
+      <DependentUpon>ajouterVehic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajouteurTransp.resx">
+      <DependentUpon>ajouteurTransp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletTrans.resx">
+      <DependentUpon>deletTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletuser.resx">
+      <DependentUpon>deletuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletvehi.resx">
+      <DependentUpon>deletvehi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depotvent.resx">
+      <DependentUpon>depotvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listageP.resx">
+      <DependentUpon>listageP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listTransp.resx">
+      <DependentUpon>listTransp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listusers.resx">
+      <DependentUpon>listusers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listVeh.resx">
+      <DependentUpon>listVeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuadmincs.resx">
+      <DependentUpon>menuadmincs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuoffres.resx">
+      <DependentUpon>menuoffres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuStock.resx">
+      <DependentUpon>menuStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="recherche.resx">
+      <DependentUpon>recherche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="redistribution.resx">
+      <DependentUpon>redistribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stockdisplaymenu.resx">
+      <DependentUpon>Stockdisplaymenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ventbi.resx">
+      <DependentUpon>ventbi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DonsDataSet.xsc">
+      <DependentUpon>DonsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DonsDataSet.xss">
+      <DependentUpon>DonsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet1.xsc">
+      <DependentUpon>DonsDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DonsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DonsDataSet1.xss">
+      <DependentUpon>DonsDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DonsDataSet2.xsc">
+      <DependentUpon>DonsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DonsDataSet2.xss">
+      <DependentUpon>DonsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet3.xsc">
+      <DependentUpon>DonsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DonsDataSet3.xss">
+      <DependentUpon>DonsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet4.xsc">
+      <DependentUpon>DonsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DonsDataSet4.xss">
+      <DependentUpon>DonsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet5.xsc">
+      <DependentUpon>DonsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DonsDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DonsDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DonsDataSet5.xss">
+      <DependentUpon>DonsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_user-01_186382.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

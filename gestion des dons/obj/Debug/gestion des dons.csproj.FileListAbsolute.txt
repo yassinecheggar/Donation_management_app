@@ -1,0 +1,75 @@
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\gestion des dons.exe.config
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\gestion des dons.exe
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\gestion des dons.pdb
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csprojResolveAssemblyReference.cache
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Form1.resources
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Properties.Resources.resources
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csproj.GenerateResource.Cache
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csproj.CoreCompileInputs.cache
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion des dons.exe
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion des dons.pdb
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\MetroFramework.Design.dll
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\MetroFramework.dll
+c:\users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuoffres.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Ajouter.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listageP.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.Designer.cs
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xsc
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xsd
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xss
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.action.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.login.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuadmincs.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listTransp.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ajouteurTransp.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletTrans.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listVeh.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ajouterVehic.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletvehi.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listusers.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletuser.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuStock.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Stockdisplaymenu.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.redistribution.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ventbi.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.depotvent.resources
+C:\Users\yassi\source\repos\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.recherche.resources
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.Designer.cs
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xsc
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xsd
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\DonsDataSet1.xss
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\gestion des dons.exe.config
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\gestion des dons.exe
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\gestion des dons.pdb
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\MetroFramework.Design.dll
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\MetroFramework.dll
+E:\Projects don\gestion des dons\gestion des dons\bin\Debug\MetroFramework.Fonts.dll
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csprojAssemblyReference.cache
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.action.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Ajouter.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ajouterVehic.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ajouteurTransp.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletTrans.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletuser.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.deletvehi.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.depotvent.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Form1.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listageP.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listTransp.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listusers.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.listVeh.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.login.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuadmincs.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuoffres.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.menuStock.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Properties.Resources.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.recherche.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.redistribution.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.Stockdisplaymenu.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion_des_dons.ventbi.resources
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csproj.GenerateResource.cache
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion des dons.csproj.CopyComplete
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion des dons.exe
+E:\Projects don\gestion des dons\gestion des dons\obj\Debug\gestion des dons.pdb
